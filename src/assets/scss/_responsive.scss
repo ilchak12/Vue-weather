@@ -1,0 +1,38 @@
+@use "sass:math";
+
+
+@media only screen and (min-width: 1681px) {
+}
+
+
+@include media(1280) {
+
+}
+
+/*TABLET START*/
+@include media(1024) {
+
+}
+
+/*TABLET END*/
+
+@include media(769) {
+
+}
+
+@include media(661) {
+
+}
+
+@include media(550) {
+}
+
+@include media(425) {
+
+}
+
+@include media(360) {
+}
+
+@include media(320) {
+}

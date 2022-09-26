@@ -1,0 +1,32 @@
+@use "sass:math";
+
+body {
+    position: relative;
+    min-width: 320px;
+    margin: auto;
+    background: var(--color-bg);
+    font-family: var(--font-main);
+    overflow: hidden;
+    overflow-y: auto;
+
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-lightblue) transparent;
+
+    &::-webkit-scrollbar {
+        width: 4px;
+        height: 8px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: var(--color-lightblue);
+        border-radius: 4px;
+    }
+
+    &::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+}
